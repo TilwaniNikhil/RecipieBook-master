@@ -1,0 +1,30 @@
+<!-- <a  class="nav-link m-0 p-0" style="cursor:pointer;"
+[routerLink]="[index]"
+routerLinkActive="active"
+> -->
+    <!-- card single item starts -->
+
+    <a class="card mb-3" style="width: 450px; height: 100px; text-decoration: none;" [routerLink]="[index]" routerLinkActive="active">
+        <div class="row g-0">
+          <div class="col-md-3">
+            <img
+              [src]="recipe.imagePath"
+              alt="{{recipe.name}}"
+              class="img-fluid rounded-start"
+              style="height: 99px; width: 116px;"
+            />
+          </div>
+          <div class="col-md-9">
+            <div class="card-body">
+              <h5 class="card-title m-0 p-0">{{recipe.name}}</h5>
+              <p class="card-text m-0 " style="overflow: hidden ; white-space: nowrap; text-overflow: ellipsis; ">
+                {{recipe.description}}
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+
+    <!-- card single item end-->
+
+<!-- </a> -->

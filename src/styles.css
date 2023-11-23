@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #ffdacd;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #c24244;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1d0a0a; 
+  }

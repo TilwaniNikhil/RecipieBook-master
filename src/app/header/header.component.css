@@ -1,0 +1,21 @@
+.container{
+  height: 60px;
+}
+.navbar-brand {
+    font-size: 2rem;
+    /* letter-spacing: 4px; */
+    color: #c24244;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .navbar-brand:hover {
+      color: #c24244;
+  }
+  
+  a{
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+ 
